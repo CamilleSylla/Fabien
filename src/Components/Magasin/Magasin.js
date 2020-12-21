@@ -1,4 +1,5 @@
 import React from 'react';
+import ButtomButton from './BottomButton';
 import './Magasin.scss';
 import MagBanner from './MagBanner';
 import MagInfos from './MagInfos';
@@ -11,6 +12,7 @@ export default function Magasin () {
             <MagBanner/>
             <MagInfos/>
             <MagTxt/>
+            <ButtomButton/>
         </div>
     )
 }

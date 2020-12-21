@@ -22,7 +22,7 @@
     background-size: cover;
     table {
       margin-top: 5vh;
-      border-spacing: 10px;
+      border-spacing: 2px;
       border-collapse: separate;
       width: 480px;
       text-align: left;
@@ -65,7 +65,24 @@
       #magContent {
         width: 50%;
         text-align: left;
+        p {
+          font-size: 1vw;
+          letter-spacing: 0.05vw;
+        }
       }
+    }
+  }
+  .bottomButton {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 8vh;
+    display: flex;
+    color: white;
+    img {
+      width: 2vw;
+      margin-right: 5vw;
+      cursor: pointer;
     }
   }
 }

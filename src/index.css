@@ -26,8 +26,7 @@ body {
   align-items: center;
 }
 .title {
-  width: 480px;
-  height: 200px;
+  width: 30vw;
   display: grid;
   grid-template-columns: 1fr 5fr;
   border: 1px solid white;
@@ -39,6 +38,7 @@ display: flex;
 align-items: center;
 font-size: 6vh;
 letter-spacing: 1vw;
+margin: 0;
 }
 .title-bar {
 display: flex;

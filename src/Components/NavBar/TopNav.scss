@@ -1,0 +1,33 @@
+#TopNav {
+    position: fixed;
+    color: white;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    max-height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid white;
+    h1 {
+        width: 30%;
+    }
+    #TopNav-Menu {
+        width: 70%;
+        right: 0;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+        letter-spacing: 5px;
+        li {
+            cursor: pointer;
+            transition: all ease-in 0.3s;
+        }
+        li:hover {
+            color: #FFBC11;
+        }
+    }
+}

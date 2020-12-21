@@ -1,0 +1,60 @@
+#Layout-container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1.5fr 7fr 1fr;
+    color: white;
+}
+
+
+#HeroBanner-content {
+    grid-row: 2;
+        position: relative;
+        width: 100%;
+        display: flex;
+        color: white;
+        font-weight: 400;
+        #HeroBanner-image {
+            width: 60%;
+            height: 100%;
+            background-image: url(../../Assets/banner.jpg);
+            background-size: cover;
+        }
+        h1 {
+            text-align: left;
+            font-size: 15vh;
+            line-height: 100%;
+            letter-spacing: 4vw;
+            position: absolute;
+            top: 20%;
+            left: 40%;
+        }
+    }
+
+#HeroBanner-bottom {
+    grid-row: 3;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    #HeroSocial {
+        display: flex;
+        justify-content: space-evenly;
+        img {
+            width: 4vh;
+            cursor: pointer;
+        }
+    }
+    #HeroButtons {
+        grid-column: 3;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        img {
+            width: 4vh;
+            cursor: pointer;
+        }
+    }
+}

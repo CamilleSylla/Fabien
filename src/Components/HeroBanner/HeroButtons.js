@@ -8,8 +8,8 @@ export default function HeroButtons () {
     return (
         <div id="HeroBanner-bottom">
             <div id="HeroSocial">
-                <img src={Facebook} alt="facebook"/>
-                <img src={Instagram} alt="instagram"/>
+                <p>Ouvert du Lundi au Samedi</p>
+                <p>de 10h à 19h</p>
             </div>
             <div id="HeroButtons">
             <img src={Arrow} alt="arrow"/>

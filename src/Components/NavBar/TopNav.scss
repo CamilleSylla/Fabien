@@ -1,9 +1,10 @@
 #TopNav {
+    z-index: 5;
     position: fixed;
     color: white;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     max-height: 8vh;
     display: flex;
     justify-content: center;

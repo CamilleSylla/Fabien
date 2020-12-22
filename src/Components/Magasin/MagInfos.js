@@ -1,20 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Loc from "../../Assets/placeholder.svg";
 import Time from "../../Assets/time.svg";
 import Phone from "../../Assets/phone-call.svg";
 
 export default function MagInfos() {
+  
   return (
     <div id="MagInfos">
       <div className="Overlay-image">
-        <div className="title">
+        <div className="title" >
           <p className="title-bar">-</p>
           <p className="title-text">
             Notre
             <br /> Magasin
           </p>
         </div>
-        <table>
+        <table >
           <tr>
             <th>
               <img src={Loc} alt="Localisation" />
